@@ -1,0 +1,170 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 11,
+    "passes": 11,
+    "pending": 0,
+    "failures": 0,
+    "start": "2019-04-09T21:09:07.333Z",
+    "end": "2019-04-09T21:09:08.507Z",
+    "duration": 1174
+  },
+  "suites": [
+    {
+      "title": "Testing POST /restaurants",
+      "tests": [
+        {
+          "title": "Request returns added restaurant",
+          "duration": 44,
+          "result": "passed",
+          "err": {}
+        },
+        {
+          "title": "MongoDB contains added restaurant",
+          "duration": 11,
+          "result": "passed",
+          "err": {}
+        },
+        {
+          "title": "Request returns added restaurant with reservation",
+          "duration": 11,
+          "result": "passed",
+          "err": {}
+        },
+        {
+          "title": "MongoDB contains added reservation",
+          "duration": 9,
+          "result": "passed",
+          "err": {}
+        }
+      ]
+    },
+    {
+      "title": "Testing GET /restaurants",
+      "tests": [
+        {
+          "title": "Request returns added restaurants",
+          "duration": 9,
+          "result": "passed",
+          "err": {}
+        },
+        {
+          "title": "Request returns the specified restaurant",
+          "duration": 4,
+          "result": "passed",
+          "err": {}
+        },
+        {
+          "title": "Request returns the specified reservation",
+          "duration": 7,
+          "result": "passed",
+          "err": {}
+        }
+      ]
+    },
+    {
+      "title": "Testing DELETE /restaurants/<restaurant_id>/<reservation_id>",
+      "tests": [
+        {
+          "title": "Request returns deleted reservation",
+          "duration": 8,
+          "result": "passed",
+          "err": {}
+        },
+        {
+          "title": "Request deleted reservation on MongoDB",
+          "duration": 9,
+          "result": "passed",
+          "err": {}
+        }
+      ]
+    },
+    {
+      "title": "Testing PATCH /restaurants/<restaurant_id>/<reservation_id>",
+      "tests": [
+        {
+          "title": "Request returns updated reservation",
+          "duration": 7,
+          "result": "passed",
+          "err": {}
+        },
+        {
+          "title": "Request updated reservation on MongoDB",
+          "duration": 11,
+          "result": "passed",
+          "err": {}
+        }
+      ]
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "Request returns added restaurant",
+      "duration": 44,
+      "result": "passed",
+      "err": {}
+    },
+    {
+      "title": "MongoDB contains added restaurant",
+      "duration": 11,
+      "result": "passed",
+      "err": {}
+    },
+    {
+      "title": "Request returns added restaurant with reservation",
+      "duration": 11,
+      "result": "passed",
+      "err": {}
+    },
+    {
+      "title": "MongoDB contains added reservation",
+      "duration": 9,
+      "result": "passed",
+      "err": {}
+    },
+    {
+      "title": "Request returns added restaurants",
+      "duration": 9,
+      "result": "passed",
+      "err": {}
+    },
+    {
+      "title": "Request returns the specified restaurant",
+      "duration": 4,
+      "result": "passed",
+      "err": {}
+    },
+    {
+      "title": "Request returns the specified reservation",
+      "duration": 7,
+      "result": "passed",
+      "err": {}
+    },
+    {
+      "title": "Request returns deleted reservation",
+      "duration": 8,
+      "result": "passed",
+      "err": {}
+    },
+    {
+      "title": "Request deleted reservation on MongoDB",
+      "duration": 9,
+      "result": "passed",
+      "err": {}
+    },
+    {
+      "title": "Request returns updated reservation",
+      "duration": 7,
+      "result": "passed",
+      "err": {}
+    },
+    {
+      "title": "Request updated reservation on MongoDB",
+      "duration": 11,
+      "result": "passed",
+      "err": {}
+    }
+  ]
+}
